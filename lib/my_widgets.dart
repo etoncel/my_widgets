@@ -9,7 +9,7 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Center(
       child: Text(
-        "My Widget",
+        "Hello World!",
         style: TextStyle(fontSize: 40, color: Colors.redAccent),
       ),
     );
