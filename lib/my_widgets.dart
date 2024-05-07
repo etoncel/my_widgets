@@ -1,6 +1,6 @@
 library my_widgets;
 
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 
 class MyWidget extends StatelessWidget {
   const MyWidget({super.key});
@@ -10,7 +10,7 @@ class MyWidget extends StatelessWidget {
     return const Center(
       child: Text(
         "My Widget",
-        style: TextStyle(fontSize: 40),
+        style: TextStyle(fontSize: 40, color: Colors.redAccent),
       ),
     );
   }
